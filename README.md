@@ -53,7 +53,7 @@
 
 
 -------- HEROKU DATABASE SET UP -------------
-# Heroku DB Setup
+# Heroku DB Setup (DON'T NEED TO DO IF THE APP ALREADY HAS SET UP HEROKU)
 1. Now we're going to create a database remotely with Heroku and connect to it with our code. Login and fill creds: `heroku login -i`
 2. Create a new Heroku app: `heroku create`
 3. Create a new remote DB on your Heroku app: `heroku addons:create heroku-postgresql:hobby-dev` (If that doesn't work, add a `-a {your-app-name}` to the end of the command, no braces)
